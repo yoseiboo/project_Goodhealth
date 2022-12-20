@@ -1,0 +1,431 @@
+.detalText{
+    font-size: 2.5rem;
+    font-family: 'Sriracha', cursive !important;
+    color: #000;
+    text-align: center;
+    margin-left: auto;
+    padding-top: 80px;
+}
+.parallax {
+    /* The image used */
+    background-image: url("19366.jpg");
+    /* Set a specific height */
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .detalText1{
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Sriracha', cursive; 
+    padding-top: 2%;
+    padding-left: 6%;
+  }
+  .detalText2{
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Sriracha', cursive; 
+    padding-top: 2%;
+    padding-left: 6%;
+  }
+  .detalText3{
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Sriracha', cursive; 
+    padding-top: 2%;
+    padding-left: 6%;
+  }
+
+a{
+    font-family: 'Sriracha', cursive; 
+}
+.Bttn{
+    margin-top:5%;
+    margin-left: 30%;
+    margin-right:2%;
+    text-align: center;
+    font-family: 'Sriracha', cursive !important;
+}
+.Bttn2{
+    margin-top:5%;
+    font-family: 'Sriracha', cursive !important;
+}
+body{
+    background: rgb(107,180,255);
+    background: linear-gradient(180deg, rgba(107,180,255,1) 19%, rgba(2,2,75,1) 51%, rgba(107,180,255,1) 59%);
+}
+.divrow2-1{
+    width: 400px;
+    height: 200px;
+    padding-bottom:5%;
+    background-color: white;
+    margin-left:20%;
+    top: 30%;
+    left: 30%; 
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(50,50 ,50,0.15);
+    
+}
+.divrow2-2{
+    width: 400px;
+    height: 200px;
+    padding-bottom:5%;
+    background-color: white;
+    margin-left:20%;
+    top: 30%;
+    left: 30%; 
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(50,50 ,50,0.15);
+    
+}
+.div1{
+    width:auto;
+    height:400px;
+    /* background: linear-gradient(90deg, #00d4ff 0%, #000851 90%); */
+}
+.div2{
+    width:auto;
+    height:100%;
+    /* background:  rgba(2,0,36,1); */
+    padding-bottom:10%;
+}
+.text{
+    font-family: 'Sriracha', cursive;
+    color:white;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    margin-left:auto;
+}
+.doc{
+    width:90%;
+    height:100%;
+    margin-top:2.3%;
+
+}
+.icon{
+    width:2%;
+    height:2%;
+}
+.img1{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.img2{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.navbar-brand{
+    font-family: 'Sriracha', cursive;
+    color: hsl(221deg,100%,66%);
+}
+.textHome{
+    margin-left: 20%;
+    margin-top:20%;
+    font-family: 'Sriracha', cursive;
+    color:black;
+}
+.textHome2{
+    margin-left: 20%;
+    font-family: 'Sriracha', cursive;
+    color:white;
+}
+svg{
+    width:5%;
+    height:5%;
+}
+.divH1-row1{
+
+    margin-top: 7%;
+    position:absolute;
+    margin-left: 18%;
+    font-family: 'Sriracha', cursive;
+    color:black;
+
+}
+.divH1-row2{
+    margin-top: 7%;
+    position:absolute;
+    margin-left: 18%;
+    font-family: 'Sriracha', cursive;
+    color:black;
+}
+.div3{
+    background:black;
+    width:auto;
+    height:500px;
+}
+
+.hospital{
+    margin-top:5%;
+    margin-left:15%;
+    margin-bottom:15%;
+    height:100px;
+    width:100px;
+}
+.taxi{
+    margin-top:5%;
+    margin-bottom:15%;
+    margin-left:15%;
+    height:100px;
+    width:100px;
+}
+.phone{
+    margin-top:5%;
+    margin-bottom:15%;
+    margin-left:15%;
+    height:100px;
+    width:100px;
+}
+
+/* word rotation */
+
+ .h1-div1 {
+    font-family: 'Sriracha', cursive !important; 
+    padding-top: 15%;
+    padding-left: 15%;
+    width:100%;
+    font-size:3rem;
+    font-family: Helvetica;
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+    color: #1d1d1f;
+  }
+  span{
+    width: 100%;
+    font-size: 2rem;
+    
+
+  }
+  
+  .mask {
+    height: 106px;
+    position: relative;
+    overflow: hidden;
+    margin-top: var(--offset);
+  }
+  
+  .mask span {
+    padding-left: 15%;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100px;
+    padding-bottom: var(--offset);
+    
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+  }
+  
+  .mask span[data-show] {
+    transform: translateY(-100%);
+    transition: .5s transform ease-in-out;
+  }
+  
+  .mask span[data-up] {
+    transform: translateY(-200%);
+    transition: .5s transform ease-in-out;
+  }
+  
+  .mask span:nth-child(1) {
+    background-image: linear-gradient(45deg,white 50%, white);
+    font-family: 'Sriracha', cursive; 
+  }
+  
+  .mask span:nth-child(2) {
+    font-family: 'Sriracha', cursive; 
+    background-image: linear-gradient(45deg, white 50%, white);
+  }
+  
+  .mask span:nth-child(3) {
+    font-family: 'Sriracha', cursive; 
+    background-image: linear-gradient(45deg, white 50%, white);
+  }
+  
+  .mask span:nth-child(4) {
+    font-family: 'Sriracha', cursive; 
+    background-image: linear-gradient(45deg, white 50%, white);
+  }
+
+  
+  /* footer */
+  .site-footer{
+  background-color:rgba(2,2,75,1);
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+
+.site-footer hr{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+
+.site-footer hr.small{
+  margin:20px 0
+}
+
+.site-footer h6{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+.site-footer a{
+  color:#737373;
+}
+
+.site-footer a:hover{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.footer-links{
+  padding-left:0;
+  list-style:none
+}
+
+.footer-links li{
+  display:block
+}
+
+.footer-links a{
+  color:white;
+}
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.footer-links.inline li{
+  display:inline-block
+}
+
+.site-footer .social-icons{
+  text-align:right
+}
+
+.site-footer .social-icons a{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:white;
+}
+
+.copyright-text{
+  margin:0
+}
+
+@media (max-width:991px){
+  .site-footer [class^=col-]{
+    margin-bottom:30px
+  }
+}
+
+@media (max-width:767px){
+  .site-footer{
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons{
+    text-align:center
+  }
+}
+
+.social-icons{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+
+.social-icons li{
+  display:inline-block;
+  margin-bottom:4px
+}
+
+.social-icons li.title{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover{
+  color:#fff;
+  background-color:#29aafe
+}
+
+.social-icons.size-sm a{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+
+.social-icons a.facebook:hover{
+  background-color:#3b5998
+}
+
+.social-icons a.twitter:hover{
+  background-color:#00aced
+}
+
+.social-icons a.linkedin:hover{
+  background-color:#007bb6
+}
+
+.social-icons a.dribbble:hover{
+  background-color:#ea4c89
+}
+
+@media (max-width:767px){
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+.text-justify{
+  color: white;
+  font-family: 'Sriracha', cursive; 
+}
+
+.footer-links{
+  color: white;
+}
+h6{
+  font-family: 'Sriracha', cursive; 
+}

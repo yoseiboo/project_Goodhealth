@@ -1,0 +1,19 @@
+#success_message{ display: none;}
+body{
+    background: linear-gradient(90deg, #00d4ff 0%, #000851 90%);
+}
+legend{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.div1{
+    height: 20px;
+}
+h2{
+    margin-top: 10px !important;
+    font-family: 'Sriracha', cursive !important;
+    color:hsl(221deg,100%,66%) !important;
+}
+.container{
+    margin-top: 30px !important;
+}
