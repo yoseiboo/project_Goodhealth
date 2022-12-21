@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.56.2",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
