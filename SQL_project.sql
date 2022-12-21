@@ -9,8 +9,8 @@ sex varchar(255) NOT NULL ) ;
 
 Create table  disease (
 disease_name varchar(255)  NOT NULL ,
-symptom  varchar(500)  NOT NULL,
-remedy Varchar(500) NOT NULL );
+symptom  varchar(2000)  NOT NULL,
+remedy Varchar(2000) NOT NULL );
 
 ALTER TABLE disease
 ADD medicine varchar(500) NOT NULL;
