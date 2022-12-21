@@ -13,7 +13,7 @@ symptom  varchar(2000)  NOT NULL,
 remedy Varchar(2000) NOT NULL );
 
 ALTER TABLE disease
-ADD medicine varchar(500) NOT NULL;
+ADD medicine varchar(2000) NOT NULL;
 
 
 insert into disease ( disease_name ,  symptom , remedy , medicine ) Values 
