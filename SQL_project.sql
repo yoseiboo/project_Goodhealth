@@ -56,5 +56,13 @@ address varchar(255) NOT NULL ,
 province varchar(255) NOT NULL ,
 Country varchar(255) NOT NULL ,
 symptom varchar(255) NOT NULL ) ;
+
+Create table users (
+Fullname varchar(255) NOT NULL ,
+username varchar(255) NOT NULL ,
+password varchar(255) NOT NULL ,
+Email varchar(255) NOT NULL ,
+PhoneNumber int NOT NULL ,
+Gender varchar(255) NOT NULL ) ;
  
  
